@@ -12,12 +12,12 @@ footer {
 
 .CopyrightText {
   justify-self: center;
-  grid-area: TextoCopyright;
+  grid-area: CopyrightText;
 }
 
 .FooterLogo {
   justify-self: center;
-  grid-area: LogoRodape;
+  grid-area: FooterLogo;
 }
 
 footer small {
