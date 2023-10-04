@@ -3,4 +3,15 @@
     <h2 class="ff-inter">My Wall</h2>
     <button routerLink="/createThought" class="button">Add Thought</button>
   </header>
+  <div class="wall" *ngIf="thoughtsList.length > 0, else noThoughts" >
+    <div *ngFor="let thought of thoughtsList">
+      <app-thought [thought]="thought"></app-thought>
+    </div>
+  </div>
 </section>
+<!--else from ngIf above-->
+<ng-template #noThoughts>
+  <div class="ff-inter no-thoughts">
+    <p>There are no thoughts registered yet.</p>
+  </div>
+</ng-template>

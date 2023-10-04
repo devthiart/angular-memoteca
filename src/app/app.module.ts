@@ -8,6 +8,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { CreateThoughtComponent } from './components/thoughts/create-thought/create-thought.component';
 import { FormsModule } from '@angular/forms';
 import { ThoughtsListComponent } from './components/thoughts-list/thoughts-list.component';
+import { ThoughtComponent } from './components/thoughts/thought/thought.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { ThoughtsListComponent } from './components/thoughts-list/thoughts-list.
     HeaderComponent,
     FooterComponent,
     CreateThoughtComponent,
-    ThoughtsListComponent
+    ThoughtsListComponent,
+    ThoughtComponent
   ],
   imports: [
     BrowserModule,
