@@ -2,9 +2,18 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.4.
 
+## Install Back End
+Go to `/backend` directory and run `npm install`. 
+
 ## Development server
 
+### Front End
+
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+
+### Back End
+
+In the `/backend` directory, run `npm start`. The back end application will run at `http://localhost:3000/`.
 
 ## Code scaffolding
 
