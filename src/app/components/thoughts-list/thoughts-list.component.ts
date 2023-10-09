@@ -1,3 +1,4 @@
+import { ThoughtService } from '../thoughts/thought.service';
 import { Thought } from './../thoughts/thought';
 import { Component } from '@angular/core';
 
@@ -8,4 +9,12 @@ import { Component } from '@angular/core';
 })
 export class ThoughtsListComponent {
   thoughtsList: Thought[] = [];
+
+  constructor(private service: ThoughtService) { }
+
+  ngOnInit(): void {
+    this.service.list().subscribe( (thoughtsListByObservable) => {
+      this.thoughtsList = thoughtsListByObservable;
+    } );
+  }
 }

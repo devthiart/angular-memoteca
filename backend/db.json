@@ -4,13 +4,13 @@
       "id": 1,
       "content": "I don't know if it's possible. But I want to be, so I will be.",
       "authorship": "Monkey D. Luffy, One Piece",
-      "template": "template1"
+      "template": "template2"
     },
     {
       "id": 2,
-      "content": "transforming the simple is difficult is easy... But transforming the difficult into simple requires creativity.",
+      "content": "Transforming the simple in difficult is easy... But transforming the difficult into simple requires creativity.",
       "authorship": "Edward Elric, Fullmetal Alchemist",
-      "template": "template2"
+      "template": "template1"
     },
     {
       "id": 3,

@@ -15,7 +15,6 @@ export class ThoughtComponent {
   };
 
   widthThought(): string {
-    console.log(this.thought.content.length);
     if(this.thought.content.length >= 256) {
       return 'thought-g';
     }

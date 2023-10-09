@@ -1,6 +1,6 @@
 export interface Thought
 {
-  id: number
+  id?: number
   content: string
   authorship: string
   template: string
